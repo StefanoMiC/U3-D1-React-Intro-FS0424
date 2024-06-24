@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-block-end: 3rem;
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App > p {
+  background-color: limegreen;
+}
+
+label {
+  display: block;
 }
